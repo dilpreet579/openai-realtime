@@ -1,0 +1,24 @@
+{
+  "name": "openai-realtime-api",
+  "version": "1.0.0",
+  "description": "A Node.js server for real-time audio streaming and AI-powered voice interaction using the OpenAI Realtime API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["openai", "realtime", "websocket", "twilio", "fastify", "ai", "voice", "api"],
+  "author": "Dilpreet Singh",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fastify/formbody": "^8.0.1",
+    "@fastify/websocket": "^11.0.1",
+    "@types/node": "^18.0.6",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.1",
+    "express-ws": "^5.0.2",
+    "fastify": "^5.0.0",
+    "ws": "^8.18.0"
+  }
+}
